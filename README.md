@@ -1,4 +1,5 @@
-# seminar1
-name and surname: Yerzhan Shaniyev
-GIT Hub accout: shaniyev
-Repository name: seminar1
+name: Yerzhan
+surname: Shaniyev
+task number: 1
+repository name: seminar1
+github account: shaniyev
