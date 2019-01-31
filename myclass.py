@@ -1,5 +1,5 @@
 class my_point:
-	def __init__(self, a, b):
+	def __init__(self, a = 0, b = 0):
 		self.a = a
 		self.b = b
 
@@ -14,4 +14,13 @@ class my_point:
 		return self.a * self.b
 
 class my_point_child(my_point):
-	pass
+	def __init__(self, a = 0, b = 0, n = 0):
+		self.a = a
+		self.b = b
+		self.n = n
+
+	def n_square(self):
+		return self.n ** 2
+
+	def print_msg(self):
+		print("This is child class method!!!")
