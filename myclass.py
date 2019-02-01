@@ -7,6 +7,12 @@ class my_point:
 		print('a = ', self.a)
 		print('b = ', self.b)
 
+	def change_att(self):
+		self.a = 10
+		self.b = 15
+		print('a = ', self.a)
+		print('b = ', self.b)
+
 	def sum_ab(self):
 		return self.a + self.b
 
